@@ -1,0 +1,7 @@
+<ng-container *ngIf="assessmentStatusPrivilege && user">
+    <assessment-lib [user]="user" [isProd]="isProd" [isColad]="isColad" [assessmentId]="this.assessmentId" [hierarchy]="this.hierarchy"
+        [isEditAssessmentRole]="isEditAssessmentPrivilege" [assessmentStatusRole]="assessmentStatusPrivilege"
+        [noSuggestedDatePermission]="!(this.assessmentStatusPrivilege?.isCbm || this.assessmentStatusPrivilege?.isCpm)">
+    </assessment-lib>
+</ng-container>
+

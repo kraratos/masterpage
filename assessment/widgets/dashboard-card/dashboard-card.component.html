@@ -1,0 +1,32 @@
+<div [ngClass]="cssClassCard" class="cp-dashboard-card-container">
+  <div [ngClass]="!hideBorder ? 'card' : 'dashboard-card'">
+    <div
+      *ngIf="cardTitle || cardSubTitle"
+      class="card-header d-flex align-items-center justify-content-between"
+      [ngClass]="[(!hideBorder ? 'card-bg-primary' : 'card-bg-secondary'),(hideBorderHead ? 'no-border' : '')]"
+    >
+      <div class="title-container">
+        <div class="bh-card-title ml-2">{{cardTitle}}</div>
+        <div *ngIf="assetTooltip!='' || icon">
+          <bh-tooltip message='{{assetTooltip}}' *ngIf="assetTooltip!='' else onlyIcon">
+            <bh-icon [icon]="icon" [size]="'small'" color="'teal'"></bh-icon>
+          </bh-tooltip>
+          <ng-template #onlyIcon>
+            <bh-icon *ngIf="icon" [icon]="icon" [size]="'small'" color="'teal'"></bh-icon>
+          </ng-template>
+        </div>
+      </div >
+      <div *ngIf="cardSubTitle">
+        <a [routerLink]="['../' + path]" class="card-subtitle">
+          <span class="mr-1"> {{cardSubTitle}} </span>
+          <span class="cp-dashboard-icons-angle-right"></span>
+        </a>
+      </div>
+    </div>
+    <div class="card-body {{customClassName}}" [ngClass]="cardLock ? 'card-body-padding' : ''">
+      <div class="container-main overflow-hidden">
+        <ng-content></ng-content>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,124 @@
+@import 'src/assets/scss/micro-app-variables';
+.top-nav-bar-container {
+  min-height: 75px;
+  max-height: 110px;
+
+
+
+  .logo-container{
+    width: 35%;
+  }
+  a {
+    color: #333333;
+  }
+  .nav-title {
+    font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif;
+    font-size:24px;
+  }
+  .title-date{
+    font-size:12px !important;
+  }
+  .calender-container{
+    //background: $white;
+    //border: 1px solid $dashboard-footer-secondary-bg;
+    //border-radius: 4px;
+    //padding: 8px;
+    .date-range-selected{
+      margin-right: 30px;
+      margin-top: -8px;
+    }
+  }
+  .calender-filter-container {
+    width: 275px;
+    margin-bottom:9px;
+    > ul {
+      border: 1px solid $dashboard-footer-secondary-bg;
+      border-radius: 4px;
+      background: $dashboard-footer-secondary-bg;
+      padding: 8px;
+      max-height: 47px;
+      height: 47px;
+      color: $default-black;
+      margin-bottom: 4px !important;
+      > li {
+        &.active {
+          background: $white;
+          border-color: $default-border-color;
+          border-radius: 5px;
+          font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif;
+          border: 1px solid #ced7d4;
+        }
+        &:not(.active):hover {
+          background-color: #CED7D4;
+          border-radius: 5px;
+        }
+
+        cursor: pointer;
+        background: $dashboard-footer-secondary-bg;
+        min-width: 61px;
+        max-width: 61px;
+        padding: 4px 14px;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+      }
+    }
+    .date-range-text{
+      align-self: flex-start;
+      margin-left: calc(var(--lumo-border-radius-m) / 4);
+      line-height: 1;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      position: relative;
+      max-width: 100%;
+      box-sizing: border-box;
+      font-family: 'Poppins-Regular', sans-serif;
+      font-weight: 500;
+      color: #757575;
+      font-size: var(--font-size-label-small);
+      transition: none;
+      padding-bottom: var(--spacing-padding-xxsmall);
+    }
+  }
+
+  ::ng-deep vaadin-date-picker::part(label) {
+    height: 23px;
+    /* vertical-align: text-bottom; */
+    font-family: var(--font-family-button-link-medium);
+    font-size: var(--font-size-button-link-medium);
+    color: var(--color-text-common-primary);
+    position: absolute;
+    top:10px;
+  }
+}
+.customer-name{
+  font-size: 1.5rem;
+  font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 650px) {
+  .top-nav-bar-container {
+    min-height: 145px !important;
+    max-height: 145px !important;
+  }
+
+
+  .content-div{
+    display: block !important;
+  }
+  .logo-box{
+    display:flex !important;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1100px) {
+  .calender-filter-container {
+    width: 50% !important;
+    >ul {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+    }
+  }
+}

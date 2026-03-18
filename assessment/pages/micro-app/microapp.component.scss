@@ -1,0 +1,25 @@
+@media only screen and  (min-width: 481px) and (max-width: 1440px) {
+  :host::ng-deep .micro-app-container{
+    padding: 20px;
+    height: 560px !important;
+  }
+}
+
+@media only screen and (max-width: 873px) {
+  :host::ng-deep .micro-app-container{
+    padding: 20px;
+    height: 372px !important;
+  }
+}
+
+:host::ng-deep .micro-app-container{
+  padding: 20px;
+  height: 560px !important;
+}
+
+:host::ng-deep #assessment-search-table,
+:host::ng-deep #submission-search-table {
+  input[placeholder="Search"] {
+    font-size: 16px;
+  }
+}

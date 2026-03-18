@@ -1,0 +1,9 @@
+<div class="container-main app-container">
+  <ng-container *ngIf="layoutData && layoutData?.header">
+    <app-top-navbar [navbarData]="layoutData.header" [isLevelProject]="layoutData.level"></app-top-navbar>
+  </ng-container>
+  <router-outlet></router-outlet>
+  <bh-footer margintop=none termsText='Terms' termsHREF='https://www.bakerhughes.com/terms'
+             privacyText='Privacy Notice' privacyHREF='https://www.bakerhughes.com/privacy' cookiesHREF=''
+             cookiesText=''></bh-footer>
+</div>

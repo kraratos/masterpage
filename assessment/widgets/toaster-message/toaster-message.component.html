@@ -1,0 +1,6 @@
+<div *ngIf="toasterConfig.show" class="toaster-message-container">
+  <div class="toaster-ele d-flex align-items-center justify-content-between">
+    <span> {{toasterConfig.message}} </span>
+    <span class="micro-app-icons-close" (click)="handleCloseToasterMessage()"></span>
+  </div>
+</div>

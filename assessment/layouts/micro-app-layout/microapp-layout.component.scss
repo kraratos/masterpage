@@ -1,0 +1,96 @@
+:host::ng-deep .bh-footer {
+  position: fixed !important;
+  bottom: 0 !important;
+  z-index: 999999 !important;
+  background-color: #f8faf9 !important;
+}
+
+:host::ng-deep app-assessment-details .bh-tooltip__slot-container {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+:host::ng-deep lib-assessment-tasks-overview,:host::ng-deep lib-risk-status-overview {
+  .header {
+    height: 60px;
+    display: block;
+  }
+
+  .info1 {
+    font-size: 11px;
+  }
+
+  .info2 {
+    font-size: 11px;
+  }
+
+  .healthStatusOverview {
+    background-color: white;
+  }
+
+  .card {
+    height: 326px;
+  }
+
+  bh-icon.zoom_out_map {
+    position: relative !important;
+    top: -65px !important;
+    left: 510px !important;
+  }
+
+  bh-icon {
+    position: relative !important;
+    top: -65px !important;
+    left: 520px !important;
+  }
+}
+
+:host::ng-deep lib-system-status-overview,
+:host::ng-deep lib-cases-after-assessment {
+  .bh-tabular-list__container {
+    border: none;
+
+    vaadin-grid {
+      border: none;
+    }
+  }
+}
+
+:host::ng-deep assessment-search-app-lib {
+  .bh-card--content {
+    height: auto;
+  }
+
+  .bh-accordion--container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .bh-accordion--header {
+    background-color: transparent;
+  }
+
+  .bh-accordion {
+    background-color: transparent;
+  }
+
+  .bh-accordion--content {
+    overflow-y: hidden;
+  }
+
+  #searchAssessmentFilter bh-dropdown .bh-text-input input{
+    font-size: medium;
+  }
+
+}
+
+@media only screen and (max-width: 873px) {
+  :host::ng-deep .bh-footer__terms {
+    margin-left: 0 !important;
+    display: inline-block !important;
+  }
+
+  :host::ng-deep .bh-footer__privacy {
+    display: inline-block !important;
+  }
+}

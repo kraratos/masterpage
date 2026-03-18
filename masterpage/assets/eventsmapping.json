@@ -1,0 +1,1866 @@
+{
+ "events": [
+    {
+      "eventCategory": "Planned Maintenance",
+      "eventPastOnToday":false,
+      "eventTypeDesc": "Combustion Inspection",
+      "eventFriendlyName": "Planned Maintenance",
+      "charCode": "c",
+      "color": "#DD887C",
+      "events": [],
+      "schema": [
+        {
+          "label": "Description",
+          "prop": "eventTypeDesc",
+          "option": {
+            "width": 173,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventTypeDesc"
+          }
+        },
+        {
+          "label": "Status",
+          "prop": "eventStatusDesc",
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventStatusDesc"
+          }
+        },
+        {
+          "label": "Date",
+          "prop": "eventDate",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDate"
+          }
+        },
+        {
+          "label": "Lineup",
+          "prop": "lineupId",
+          "option": {
+            "width": 85,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "lineupId"
+          }
+        },
+        {
+          "label": "Unit Serial No.",
+          "prop": "machineSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineSn"
+          }
+        },
+        {
+          "label": "Id",
+          "prop": "extEventId",
+          "option": {
+            "width": 93,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "extEventId"
+          }
+        }
+      ],
+      "propInputMapping": [
+        {
+          "prop": "eventTypeDesc",
+          "inputProp": "eventTypeDesc",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventStatusDesc",
+          "inputProp": "eventStatusDesc",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventDate",
+          "inputProp": "eventDate",
+          "typescriptType": "Date",
+          "remapValues": []
+        },
+        {
+          "prop": "lineupId",
+          "inputProp": "lineupId",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "machineSn",
+          "inputProp": "machineSn",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "extEventId",
+          "inputProp": "extEventId",
+          "typescriptType": "string",
+          "remapValues": []
+        }
+      ]
+    },
+
+    {
+      "eventCategory": "Pending approval maintenance",
+      "eventPastOnToday":false,
+      "eventTypeDesc": "Pending approval maintenance",
+      "eventFriendlyName": "Pending approval maintenance",
+      "charCode": "p",
+      "color": "#000000",
+      "events": [],
+      "schema": [
+        {
+          "label": "Description",
+          "prop": "eventTypeDesc",
+          "option": {
+            "width": 173,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventTypeDesc"
+          }
+        },
+        {
+          "label": "Status",
+          "prop": "eventStatusDesc",
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventStatusDesc"
+          }
+        },
+        {
+          "label": "Date",
+          "prop": "eventDate",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDate"
+          }
+        },
+        {
+          "label": "Lineup",
+          "prop": "lineupId",
+          "option": {
+            "width": 85,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "lineupId"
+          }
+        },
+        {
+          "label": "Unit Serial No.",
+          "prop": "machineSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineSn"
+          }
+        },
+        {
+          "label": "Id",
+          "prop": "extEventId",
+          "option": {
+            "width": 93,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "extEventId"
+          }
+        }
+      ],
+      "propInputMapping": [
+        {
+          "prop": "eventTypeDesc",
+          "inputProp": "eventTypeDesc",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventStatusDesc",
+          "inputProp": "eventStatusDesc",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventDate",
+          "inputProp": "eventDate",
+          "typescriptType": "Date",
+          "remapValues": []
+        },
+        {
+          "prop": "lineupId",
+          "inputProp": "lineupId",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "machineSn",
+          "inputProp": "machineSn",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "extEventId",
+          "inputProp": "extEventId",
+          "typescriptType": "string",
+          "remapValues": []
+        }
+      ]
+    },
+
+    {
+      "eventCategory": "Maintenance Flex",
+      "eventPastOnToday":false,
+      "eventTypeDesc": "Maintenance Flex",
+      "eventFriendlyName": "Maintenance Flex",
+      "charCode": "r",
+      "color": "#DC7AC1",
+      "events": [],
+      "schema": [
+        {
+          "label": "Description",
+          "prop": "eventTypeDesc",
+          "option": {
+            "width": 173,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventTypeDesc"
+          }
+        },
+        {
+          "label": "Status",
+          "prop": "eventStatusDesc",
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventStatusDesc"
+          }
+        },
+        {
+          "label": "Date",
+          "prop": "eventDate",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDate"
+          }
+        },
+        {
+          "label": "Lineup",
+          "prop": "lineupId",
+          "option": {
+            "width": 85,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "lineupId"
+          }
+        },
+        {
+          "label": "Unit Serial No.",
+          "prop": "machineSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineSn"
+          }
+        },
+        {
+          "label": "Id",
+          "prop": "extEventId",
+          "option": {
+            "width": 93,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "extEventId"
+          }
+        }
+      ],
+      "propInputMapping": [
+        {
+          "prop": "eventTypeDesc",
+          "inputProp": "eventTypeDesc",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventStatusDesc",
+          "inputProp": "eventStatusDesc",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventDate",
+          "inputProp": "eventDate",
+          "typescriptType": "Date",
+          "remapValues": []
+        },
+        {
+          "prop": "lineupId",
+          "inputProp": "lineupId",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "machineSn",
+          "inputProp": "machineSn",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "extEventId",
+          "inputProp": "extEventId",
+          "typescriptType": "string",
+          "remapValues": []
+        }
+      ]
+    },
+
+    {
+      "eventCategory": "High Risk maintenance",
+      "eventPastOnToday":false,
+      "eventTypeDesc": "High Risk maintenance",
+      "eventFriendlyName": "High Risk maintenance",
+      "charCode": "r",
+      "color": "#B49566",
+      "events": [],
+      "schema": [
+        {
+          "label": "Description",
+          "prop": "eventTypeDesc",
+          "option": {
+            "width": 173,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventTypeDesc"
+          }
+        },
+        {
+          "label": "Status",
+          "prop": "eventStatusDesc",
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventStatusDesc"
+          }
+        },
+        {
+          "label": "Date",
+          "prop": "eventDate",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDate"
+          }
+        },
+        {
+          "label": "Lineup",
+          "prop": "lineupId",
+          "option": {
+            "width": 85,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "lineupId"
+          }
+        },
+        {
+          "label": "Unit Serial No.",
+          "prop": "machineSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineSn"
+          }
+        },
+        {
+          "label": "Id",
+          "prop": "extEventId",
+          "option": {
+            "width": 93,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "extEventId"
+          }
+        }
+      ],
+      "propInputMapping": [
+        {
+          "prop": "eventTypeDesc",
+          "inputProp": "eventTypeDesc",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventStatusDesc",
+          "inputProp": "eventStatusDesc",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventDate",
+          "inputProp": "eventDate",
+          "typescriptType": "Date",
+          "remapValues": []
+        },
+        {
+          "prop": "lineupId",
+          "inputProp": "lineupId",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "machineSn",
+          "inputProp": "machineSn",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "extEventId",
+          "inputProp": "extEventId",
+          "typescriptType": "string",
+          "remapValues": []
+        }
+      ]
+    },
+
+    {
+      "eventCategory": "maint_opt",
+      "eventTypeDesc": "Forecast",
+      "eventFriendlyName": "Maintenance tasks",
+      "eventPastOnToday":true,
+      "charCode": "c",
+      "color": "#CFCFCF",
+      "events": [],
+      "schema": [
+        {
+          "label": "Description",
+          "prop": "eventTypeDesc",
+          "option": {
+            "width": 173,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventTypeDesc"
+          }
+        },
+        {
+          "label": "Status",
+          "prop": "eventStatusDesc",
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventStatusDesc"
+          }
+        },
+        {
+          "label": "Date",
+          "prop": "eventDate",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDate"
+          }
+        },
+        {
+          "label": "Unit Serial No.",
+          "prop": "machineSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineSn"
+          }
+        },
+        {
+          "label": "Id",
+          "prop": "extEventId",
+          "option": {
+            "width": 93,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "extEventId"
+          }
+        },
+        {
+          "label": "No. of task",
+          "prop": "taskCount",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "taskCount"
+          }
+        },
+        {
+          "label": "Detail",
+          "prop": "targetURL",
+          "html" : {
+            "template" : "<bh-a font='typography--body-medium' type='primary' text='{1}' target='_blank' href='{0}' isDisabled='{2}'></bh-a>",
+            "keys" : ["targetURL","targetUrlLabel","linkDisabled"]
+            },
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "String",
+            "searchValue": "targetURL"
+          }
+        }
+      ],
+      "propInputMapping": [
+        {
+          "prop": "eventTypeDesc",
+          "inputProp": "evtType",
+          "typescriptType": "string",
+          "remapValues": [
+            {
+              "sourceValue": "maint_opt",
+              "labelValue": "Maintenance Task",
+              "defaultValue": false
+            },
+            {
+              "sourceValue": "",
+              "labelValue": "default remapped value",
+              "defaultValue": true
+            }
+          ]
+        },
+        {
+          "prop": "eventStatusDesc",
+          "inputProp": "state",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventDate",
+          "inputProp": "eventDate",
+          "typescriptType": "Date",
+          "remapValues": []
+        },
+        {
+          "prop": "machineSn",
+          "inputProp": "assetVid",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "extEventId",
+          "inputProp": "sourceId",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "taskCount",
+          "inputProp": "taskCount",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "targetURL",
+          "inputProp": "targetURL",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "targetUrlLabel",
+          "inputProp": "targetUrlLabel",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "linkDisabled",
+          "inputProp": "linkDisabled",
+          "typescriptType": "string",
+          "remapValues": []
+        }
+      ]
+    },
+
+    {
+      "eventCategory": "pep_ww",
+      "eventPastOnToday":false,
+      "eventTypeDesc": "Forecast",
+      "eventFriendlyName": "Water Wash",
+      "charCode": "o",
+      "color": "#666EB4",
+      "events": [],
+      "schema": [
+        {
+          "label": "Description",
+          "prop": "eventTypeDesc",
+          "option": {
+            "width": 173,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventTypeDesc"
+          }
+        },
+        {
+          "label": "Status",
+          "prop": "eventStatusDesc",
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventStatusDesc"
+          }
+        },
+        {
+          "label": "Date",
+          "prop": "eventDate",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDate"
+          }
+        },
+        {
+          "label": "Unit Serial No.",
+          "prop": "machineSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineSn"
+          }
+        },
+        {
+          "label": "Running Hrs",
+          "prop": "evtRunningHours",
+          "option": {
+            "width": 90,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDuration"
+          }
+        },
+        {
+          "label": "Current Running Hrs",
+          "prop": "currRunningHours",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "insertDate"
+          }
+        },
+        {
+          "label": "Id",
+          "prop": "extEventId",
+          "option": {
+            "width": 93,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "extEventId"
+          }
+        },
+        {
+          "label": "No. of task",
+          "prop": "taskCount",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "taskCount"
+          }
+        },
+        {
+          "label": "Detail",
+          "prop": "targetURL",
+          "html" : {
+            "template" : "<bh-a font='typography--body-medium' type='primary' text='{1}' target='_blank' href='{0}' isDisabled='{2}'></bh-a>",
+            "keys" : ["targetURL","targetUrlLabel","linkDisabled"]
+            },
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "String",
+            "searchValue": "targetURL"
+          }
+        }
+      ],
+      "propInputMapping": [
+        {
+          "prop": "eventTypeDesc",
+          "inputProp": "evtType",
+          "typescriptType": "string",
+          "remapValues": [
+            {
+              "sourceValue": "WW",
+              "labelValue": "Water Wash",
+              "defaultValue": false
+            },
+            {
+              "sourceValue": "",
+              "labelValue": "default remapped value",
+              "defaultValue": true
+            }
+          ]
+        },
+        {
+          "prop": "eventStatusDesc",
+          "inputProp": "state",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventDate",
+          "inputProp": "eventDate",
+          "typescriptType": "Date",
+          "remapValues": []
+        },
+        {
+          "prop": "machineSn",
+          "inputProp": "assetVid",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "evtRunningHours",
+          "inputProp": "evtRunningHours",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "currRunningHours",
+          "inputProp": "currRunningHours",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "extEventId",
+          "inputProp": "evtId",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "taskCount",
+          "inputProp": "taskCount",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "targetURL",
+          "inputProp": "targetURL",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "targetUrlLabel",
+          "inputProp": "targetUrlLabel",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "linkDisabled",
+          "inputProp": "linkDisabled",
+          "typescriptType": "string",
+          "remapValues": []
+        }
+      ]
+    },
+
+    {
+      "eventCategory": "filt_change_adv",
+      "eventPastOnToday":false,
+      "eventTypeDesc": "Forecast",
+      "eventFriendlyName": "Filter Change",
+      "charCode": "e",
+      "color": "#B0CD5D",
+      "events": [],
+      "schema": [
+        {
+          "label": "Description",
+          "prop": "eventTypeDesc",
+          "option": {
+            "width": 173,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventTypeDesc"
+          }
+        },
+        {
+          "label": "Status",
+          "prop": "eventStatusDesc",
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventStatusDesc"
+          }
+        },
+        {
+          "label": "Date",
+          "prop": "eventDate",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDate"
+          }
+        },
+        {
+          "label": "Unit Serial No.",
+          "prop": "machineSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineSn"
+          }
+        },
+        {
+          "label": "Running Hrs",
+          "prop": "evtRunningHours",
+          "option": {
+            "width": 90,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDuration"
+          }
+        },
+        {
+          "label": "Current Running Hrs",
+          "prop": "currRunningHours",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "insertDate"
+          }
+        },
+        {
+          "label": "Id",
+          "prop": "extEventId",
+          "option": {
+            "width": 93,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "extEventId"
+          }
+        },
+        {
+          "label": "No. of task",
+          "prop": "taskCount",
+          "option": {
+            "width":80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "taskCount"
+          }
+        },
+        {
+          "label": "Detail",
+          "prop": "targetURL",
+          "html" : {
+            "template" : "<bh-a font='typography--body-medium' type='primary' text='{1}' target='_blank' href='{0}' isDisabled='{2}'></bh-a>",
+            "keys" : ["targetURL","targetUrlLabel","linkDisabled"]
+            },
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "String",
+            "searchValue": "targetURL"
+          }
+        }
+      ],
+      "propInputMapping": [
+        {
+          "prop": "eventTypeDesc",
+          "inputProp": "evtType",
+          "typescriptType": "string",
+          "remapValues": [
+            {
+              "sourceValue": "pre-filter",
+              "labelValue": "Pre Filter change",
+              "defaultValue": false
+            },
+            {
+              "sourceValue": "high-efficiency-filter",
+              "labelValue": "High eff. filter change",
+              "defaultValue": false
+            },
+            {
+              "sourceValue": "hepa-filter",
+              "labelValue": "Hepa Filter change",
+              "defaultValue": false
+            },
+            {
+              "sourceValue": "",
+              "labelValue": "default remapped value",
+              "defaultValue": true
+            }
+          ]
+        },
+        {
+          "prop": "eventStatusDesc",
+          "inputProp": "state",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventDate",
+          "inputProp": "eventDate",
+          "typescriptType": "Date",
+          "remapValues": []
+        },
+        {
+          "prop": "machineSn",
+          "inputProp": "assetVid",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "evtRunningHours",
+          "inputProp": "evtRunningHours",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "currRunningHours",
+          "inputProp": "currRunningHours",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "extEventId",
+          "inputProp": "evtId",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "taskCount",
+          "inputProp": "taskCount",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "targetURL",
+          "inputProp": "targetURL",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "targetUrlLabel",
+          "inputProp": "targetUrlLabel",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "linkDisabled",
+          "inputProp": "linkDisabled",
+          "typescriptType": "string",
+          "remapValues": []
+        }
+      ]
+    },
+
+    {
+      "eventCategory": "eff_opt",
+      "eventPastOnToday":false,
+      "eventTypeDesc": "Forecast",
+      "eventFriendlyName": "Carbon Optimization",
+      "charCode": "g",
+      "color": "#506C65",
+      "events": [],
+      "schema": [
+        {
+          "label": "Description",
+          "prop": "eventTypeDesc",
+          "option": {
+            "width": 173,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventTypeDesc"
+          }
+        },
+        {
+          "label": "Status",
+          "prop": "eventStatusDesc",
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventStatusDesc"
+          }
+        },
+        {
+          "label": "Date",
+          "prop": "eventDate",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDate"
+          }
+        },
+        {
+          "label": "Unit Serial No.",
+          "prop": "machineSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineSn"
+          }
+        },
+        {
+          "label": "Running Hrs",
+          "prop": "evtRunningHours",
+          "option": {
+            "width": 90,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDuration"
+          }
+        },
+        {
+          "label": "Current Running Hrs",
+          "prop": "currRunningHours",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "insertDate"
+          }
+        },
+        {
+          "label": "Id",
+          "prop": "extEventId",
+          "option": {
+            "width": 93,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "extEventId"
+          }
+        },
+        {
+          "label": "No. of task",
+          "prop": "taskCount",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "taskCount"
+          }
+        },
+        {
+          "label": "Detail",
+          "prop": "targetURL",
+          "html" : {
+            "template" : "<bh-a font='typography--body-medium' type='primary' text='{1}' target='_blank' href='{0}' isDisabled='{2}'></bh-a>",
+            "keys" : ["targetURL","targetUrlLabel","linkDisabled"]
+            },
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "String",
+            "searchValue": "targetURL"
+          }
+        }
+      ],
+      "propInputMapping": [
+        {
+          "prop": "eventTypeDesc",
+          "inputProp": "evtType",
+          "typescriptType": "string",
+          "remapValues": [
+            {
+              "sourceValue": "Optimal solution not found",
+              "labelValue": "Optimization not found",
+              "defaultValue": false
+            },
+            {
+              "sourceValue": "Optimization cannot start: invalid batch in input",
+              "labelValue": "Optimization n/a",
+              "defaultValue": false
+            },
+            {
+              "sourceValue": "Optimization Complete: Absorb remaining load",
+              "labelValue": "Absorb remaining load",
+              "defaultValue": false
+            },
+            {
+              "sourceValue": "Optimization Complete: Setpoint at constant load",
+              "labelValue": "Setpoint at constant load",
+              "defaultValue": false
+            },
+            {
+              "sourceValue": "Power setpoint according to process demand",
+              "labelValue": "Power setpoint according to process demand",
+              "defaultValue": false
+            },
+            {
+              "sourceValue": "",
+              "labelValue": "default remapped value",
+              "defaultValue": true
+            }
+          ]
+        },
+        {
+          "prop": "eventStatusDesc",
+          "inputProp": "state",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventDate",
+          "inputProp": "eventDate",
+          "typescriptType": "Date",
+          "remapValues": []
+        },
+        {
+          "prop": "machineSn",
+          "inputProp": "assetVid",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "evtRunningHours",
+          "inputProp": "evtRunningHours",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "currRunningHours",
+          "inputProp": "currRunningHours",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "extEventId",
+          "inputProp": "evtId",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "taskCount",
+          "inputProp": "taskCount",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "targetURL",
+          "inputProp": "targetURL",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "targetUrlLabel",
+          "inputProp": "targetUrlLabel",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "linkDisabled",
+          "inputProp": "linkDisabled",
+          "typescriptType": "string",
+          "remapValues": []
+        }
+      ]
+    },
+
+    {
+      "eventCategory": "dle_health",
+      "eventPastOnToday":false,
+      "eventTypeDesc": "Forecast",
+      "eventFriendlyName": "DLE Health Status",
+      "charCode": "i",
+      "color": "#DD887C",
+      "events": [],
+      "schema": [
+        {
+          "label": "Description",
+          "prop": "eventTypeDesc",
+          "option": {
+            "width": 173,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventTypeDesc"
+          }
+        },
+        {
+          "label": "Status",
+          "prop": "eventStatusDesc",
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventStatusDesc"
+          }
+        },
+        {
+          "label": "Date",
+          "prop": "eventDate",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDate"
+          }
+        },
+        {
+          "label": "Unit Serial No.",
+          "prop": "machineSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineSn"
+          }
+        },
+        {
+          "label": "Running Hrs",
+          "prop": "evtRunningHours",
+          "option": {
+            "width": 90,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDuration"
+          }
+        },
+        {
+          "label": "Current Running Hrs",
+          "prop": "currRunningHours",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "insertDate"
+          }
+        },
+        {
+          "label": "Id",
+          "prop": "extEventId",
+          "option": {
+            "width": 93,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "extEventId"
+          }
+        },
+        {
+          "label": "No. of task",
+          "prop": "taskCount",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "taskCount"
+          }
+        },
+        {
+          "label": "Detail",
+          "prop": "targetURL",
+          "html" : {
+            "template" : "<bh-a font='typography--body-medium' type='primary' text='{1}' target='_blank' href='{0}' isDisabled='{2}'></bh-a>",
+            "keys" : ["targetURL","targetUrlLabel","linkDisabled"]
+            },
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "String",
+            "searchValue": "targetURL"
+          }
+        }
+      ],
+      "propInputMapping": [
+        {
+          "prop": "eventTypeDesc",
+          "inputProp": "evtType",
+          "typescriptType": "string",
+          "remapValues": [
+            {
+              "sourceValue": "DLE-HS",
+              "labelValue": "DLE Mapping",
+              "defaultValue": false
+            },
+            {
+              "sourceValue": "",
+              "labelValue": "default remapped value",
+              "defaultValue": true
+            }
+          ]
+        },
+        {
+          "prop": "eventStatusDesc",
+          "inputProp": "state",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventDate",
+          "inputProp": "eventDate",
+          "typescriptType": "Date",
+          "remapValues": []
+        },
+        {
+          "prop": "machineSn",
+          "inputProp": "assetVid",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "evtRunningHours",
+          "inputProp": "evtRunningHours",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "currRunningHours",
+          "inputProp": "currRunningHours",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "extEventId",
+          "inputProp": "evtId",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "taskCount",
+          "inputProp": "taskCount",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "targetURL",
+          "inputProp": "targetURL",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "targetUrlLabel",
+          "inputProp": "targetUrlLabel",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "linkDisabled",
+          "inputProp": "linkDisabled",
+          "typescriptType": "string",
+          "remapValues": []
+        }
+      ]
+    },
+
+    {
+      "eventCategory": "fouling",
+      "eventPastOnToday":false,
+      "eventTypeDesc": "Forecast",
+      "eventFriendlyName": "Fouling",
+      "charCode": "o",
+      "color": "#F0B529",
+      "events": [],
+      "schema": [
+        {
+          "label": "Description",
+          "prop": "eventTypeDesc",
+          "option": {
+            "width": 173,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventTypeDesc"
+          }
+        },
+        {
+          "label": "Status",
+          "prop": "eventStatusDesc",
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventStatusDesc"
+          }
+        },
+        {
+          "label": "Date",
+          "prop": "eventDate",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDate"
+          }
+        },
+        {
+          "label": "Unit Serial No.",
+          "prop": "machineSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineSn"
+          }
+        },
+        {
+          "label": "No. of task",
+          "prop": "taskCount",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "taskCount"
+          }
+        },
+        {
+          "label": "Detail",
+          "prop": "targetURL",
+          "html" : {
+            "template" : "<bh-a font='typography--body-medium' type='primary' text='{1}' target='_blank' href='{0}' isDisabled='{2}'></bh-a>",
+            "keys" : ["targetURL","targetUrlLabel","linkDisabled"]
+            },
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "String",
+            "searchValue": "targetURL"
+          }
+        }
+      ],
+      "propInputMapping": [
+        {
+          "prop": "eventTypeDesc",
+          "inputProp": "evtType",
+          "typescriptType": "string",
+          "remapValues": [
+            {
+              "sourceValue": "DLE-HS",
+              "labelValue": "DLE Mapping",
+              "defaultValue": false
+            },
+            {
+              "sourceValue": "",
+              "labelValue": "default remapped value",
+              "defaultValue": true
+            }
+          ]
+        },
+        {
+          "prop": "eventStatusDesc",
+          "inputProp": "state",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventDate",
+          "inputProp": "eventDate",
+          "typescriptType": "Date",
+          "remapValues": []
+        },
+        {
+          "prop": "machineSn",
+          "inputProp": "assetVid",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "taskCount",
+          "inputProp": "taskCount",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "targetURL",
+          "inputProp": "targetURL",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "targetUrlLabel",
+          "inputProp": "targetUrlLabel",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "linkDisabled",
+          "inputProp": "linkDisabled",
+          "typescriptType": "string",
+          "remapValues": []
+        }
+      ]
+    },
+
+    {
+      "eventCategory": "MAINT",
+      "eventPastOnToday":false,
+      "eventTypeDesc": "Maintenance (Planned)",
+      "eventFriendlyName": "Historical Planned Event",
+      "charCode": "a",
+      "color": "#4CA2A8",
+      "events": [],
+      "schema": [
+        {
+          "label": "Description",
+          "prop": "eventTypeDesc",
+          "option": {
+            "width": 173,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventTypeDesc"
+          }
+        },
+        {
+          "label": "Status",
+          "prop": "eventStatusDesc",
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventStatusDesc"
+          }
+        },
+        {
+          "label": "Date",
+          "prop": "eventDate",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDate"
+          }
+        },
+        {
+          "label": "Lineup",
+          "prop": "lineupId",
+          "option": {
+            "width": 85,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "lineupId"
+          }
+        },
+        {
+          "label": "Unit Serial No.",
+          "prop": "machineSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineSn"
+          }
+        },
+        {
+          "label": "Id",
+          "prop": "extEventId",
+          "option": {
+            "width": 93,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "extEventId"
+          }
+        }
+      ],
+      "propInputMapping": [
+        {
+          "prop": "eventTypeDesc",
+          "inputProp": "eventTypeDesc",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventStatusDesc",
+          "inputProp": "status",
+          "typescriptType": "string",
+          "remapValues": [
+            {
+              "sourceValue": "OPEN",
+              "labelValue": "Executed",
+              "defaultValue": true
+            }
+          ]
+        },
+        {
+          "prop": "eventDate",
+          "inputProp": "eventDate",
+          "typescriptType": "Date",
+          "remapValues": []
+        },
+        {
+          "prop": "lineupId",
+          "inputProp": "lineup_id",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "machineSn",
+          "inputProp": "machineSn",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "extEventId",
+          "inputProp": "extEventId",
+          "typescriptType": "string",
+          "remapValues": []
+        }
+      ]
+    },
+
+    {
+      "eventCategory": "MAINT_UNPL",
+      "eventPastOnToday":false,
+      "eventTypeDesc": "Maintenance (Unplanned)",
+      "eventFriendlyName": "Historical Unplanned Event",
+      "charCode": "a",
+      "color": "#AF74B9",
+      "events": [],
+      "schema": [
+        {
+          "label": "Description",
+          "prop": "eventTypeDesc",
+          "option": {
+            "width": 173,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventTypeDesc"
+          }
+        },
+        {
+          "label": "Status",
+          "prop": "eventStatusDesc",
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventStatusDesc"
+          }
+        },
+        {
+          "label": "Date",
+          "prop": "eventDate",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDate"
+          }
+        },
+        {
+          "label": "Lineup",
+          "prop": "lineupId",
+          "option": {
+            "width": 85,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "lineupId"
+          }
+        },
+        {
+          "label": "Unit Serial No.",
+          "prop": "machineSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineSn"
+          }
+        },
+        {
+          "label": "Id",
+          "prop": "extEventId",
+          "option": {
+            "width": 93,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "extEventId"
+          }
+        }
+      ],
+      "propInputMapping": [
+        {
+          "prop": "eventTypeDesc",
+          "inputProp": "eventTypeDesc",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventStatusDesc",
+          "inputProp": "status",
+          "typescriptType": "string",
+          "remapValues": [
+            {
+              "sourceValue": "OPEN",
+              "labelValue": "Executed",
+              "defaultValue": true
+            }
+          ]
+        },
+        {
+          "prop": "eventDate",
+          "inputProp": "eventDate",
+          "typescriptType": "Date",
+          "remapValues": []
+        },
+        {
+          "prop": "lineupId",
+          "inputProp": "lineup_id",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "machineSn",
+          "inputProp": "machineSn",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "extEventId",
+          "inputProp": "extEventId",
+          "typescriptType": "string",
+          "remapValues": []
+        }
+      ]
+    },
+
+    {
+      "eventCategory": -99999,
+      "eventTypeDesc": "unkonwn event",
+      "eventFriendlyName": "Other",
+      "charCode": "g",
+      "color": "#CFCFCF",
+      "events": [],
+      "schema": [
+        {
+          "label": "Date",
+          "prop": "eventDate",
+          "option": {
+            "width": 140,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventDate"
+          }
+        },
+        {
+          "label": "Id",
+          "prop": "extEventId",
+          "option": {
+            "width": 93,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "extEventId"
+          }
+        },
+        {
+          "label": "Description",
+          "prop": "eventTypeDesc",
+          "option": {
+            "width": 173,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventTypeDesc"
+          }
+        },
+        {
+          "label": "Status",
+          "prop": "eventStatusDesc",
+          "option": {
+            "width": 103,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "eventStatusDesc"
+          }
+        },
+        {
+          "label": "Lineup",
+          "prop": "lineupId",
+          "option": {
+            "width": 85,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "lineupId"
+          }
+        },
+        {
+          "label": "Eqp Sn.",
+          "prop": "machineEqpSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineEqpSn"
+          }
+        },
+        {
+          "label": "Unit Serial No.",
+          "prop": "machineSn",
+          "option": {
+            "width": 80,
+            "isSortable": false,
+            "dataType": "Number",
+            "searchValue": "machineSn"
+          }
+        }
+      ],
+      "propInputMapping": [
+        {
+          "prop": "eventDate",
+          "inputProp": "eventDate",
+          "typescriptType": "Date",
+          "remapValues": []
+        },
+        {
+          "prop": "extEventId",
+          "inputProp": "extEventId",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "eventTypeDesc",
+          "inputProp": "eventTypeDesc",
+          "typescriptType": "string",
+          "remapValues": [
+            {
+              "sourceValue": "",
+              "labelValue": "default remapped value",
+              "defaultValue": true
+            }
+          ]
+        },
+        {
+          "prop": "eventStatusDesc",
+          "inputProp": "eventStatusDesc",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "lineupId",
+          "inputProp": "lineupId",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "machineEqpSn",
+          "inputProp": "machineEqpSn",
+          "typescriptType": "string",
+          "remapValues": []
+        },
+        {
+          "prop": "machineSn",
+          "inputProp": "machineSn",
+          "typescriptType": "string",
+          "remapValues": []
+        }
+      ]
+    }
+  ]
+}

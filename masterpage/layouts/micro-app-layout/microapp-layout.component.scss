@@ -1,0 +1,17 @@
+:host::ng-deep .bh-footer {
+  position: fixed !important;
+  bottom: 0 !important;
+  z-index: 999999 !important;
+  background-color: #f8faf9 !important;
+}
+
+@media only screen and (max-width: 873px) {
+  :host::ng-deep .bh-footer__terms {
+    margin-left: 0 !important;
+    display: inline-block !important;
+  }
+
+  :host::ng-deep .bh-footer__privacy {
+    display: inline-block !important;
+  }
+}

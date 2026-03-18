@@ -1,0 +1,101 @@
+@import 'node_modules/font-awesome/scss/font-awesome.scss';
+[class^='micro-app-icons-'],
+[class*='micro-app-icons-'] {
+  font-family: 'fontawesome', Arial, Helvetica, sans-serif !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /***** Better Font Rendering ******/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /**** Needed for rotation transition ****/
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+[class^='micro-app-icons-'].rotated,
+[class*=' micro-app-icons-'].rotated {
+  -ms-transform: rotate(1 fcat80deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+// ***************************** PLEASE UPDATE ALL THE ICONS FROM HERE ***********************************//
+.micro-app-icons-ellipsis-h:before {
+  content: '\f141 ';
+  color: #333333;
+}
+
+.micro-app-icons-glass:before {
+  content: '\f000 ';
+  color: #333333;
+}
+
+.micro-app-icons-angle-right:before {
+  content: '\f105  ';
+  color: #4ca2a8;
+}
+
+.micro-app-icons-phone-book:before {
+  content: '\f2b9  ';
+  color: #333333;
+}
+
+.micro-app-icons-info:before {
+  content: '\f05a  ';
+  color: #333333;
+}
+
+.micro-app-icons-plus:before {
+  content: '\f067  ';
+  color: #333333;
+}
+.micro-app-icons-chevron-right:before {
+  content: '\f105 ';
+  color: #333333;
+}
+
+.micro-app-icons-chevron-left:before {
+  content: '\f104 ';
+  color: #333333;
+}
+
+.micro-app-icons-circle-dot:before {
+  content: '\f192 ';
+  color: #333333;
+}
+
+.micro-app-icons-delete:before {
+  content: '\f014 ';
+  color: #333333;
+}
+
+.micro-app-icons-search:before {
+  content: '\f002';
+  color: #333333;
+}
+
+.micro-app-icons-close:before {
+  content: '\f00d';
+  color: #333333;
+}
+.micro-app-icons-edit:before {
+  content: '\f040';
+  color: #333333;
+}
+.micro-app-icons-warning:before {
+  content: '\f071';
+  color: #e12d39;
+}
+.micro-app-icons-expand:before {
+  content: '\f31e';
+  color: #333333;
+}
+.micro-app-icons-lock:before {
+  content: '\f023';
+  color: #333;
+}
+

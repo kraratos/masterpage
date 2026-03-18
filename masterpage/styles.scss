@@ -1,0 +1,259 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(../node_modules/@bh-digital-solutions/ui-toolkit/dist/bh-ui-toolkit/bh-ui-toolkit.css);
+/* You can add global styles to this file, and also import other style files */
+@import 'assets/scss/micro-app-variables';
+/* Importing Bootstrap SCSS file. */
+//@import 'node_modules/bootstrap/scss/bootstrap';
+/* Importing Datepicker SCSS file. */
+@import 'node_modules/ngx-bootstrap/datepicker/bs-datepicker';
+* {
+  margin: 0px;
+  // padding: 0px;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: 'Poppins-Regular', sans-serif;
+  background: $body-bg-color;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+.app-container {
+  padding: 24px 18px;
+  background: $body-bg-color;
+}
+
+.scroll-right {
+  float: right;
+  font-size: 3rem;
+}
+
+.scroll-left {
+  float: left;
+  font-size: 3rem;
+}
+
+.hint-text {
+  font-size: 10px;
+  font-family: 'Poppins-Regular' , sans-serif;
+  color: $hint-color;
+}
+
+.label {
+  color: $label-color;
+  font-size: 14px;
+  font-family: 'Poppins-SemiBold', sans-serif;
+}
+.search-Widget {
+  height: 38px;
+
+  width: 17rem;
+
+  border-radius: 19px;
+
+  border: 1px solid $default-border-color;
+
+  padding-left: 1rem;
+
+  font-size: 0.8rem;
+}
+
+input[type='text'],
+input[type='password'] {
+  height: 32px;
+}
+input[type='checkbox'] {
+  accent-color: $text-primary;
+}
+
+.btn.btn-primary {
+  background: $btn-primary-bg;
+  border-color: $btn-primary-bg !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:hover {
+  border-color: $btn-primary-bg !important;
+  background: $btn-primary-bg !important;
+  box-shadow: 0 0 0 0.2rem $btn-primary-bg !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $btn-primary-bg !important;
+}
+
+.btn.btn-secondary {
+  color: #333333;
+  background: $white;
+  border-color: $btn-primary-bg;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle,
+.btn-secondary:focus,
+.btn-secondary.focus {
+  border-color: $dashboard-footer-border-secondary;
+  background: $dashboard-footer-border-secondary;
+  box-shadow: 0 0 0 0.2rem $dashboard-footer-border-secondary;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $dashboard-footer-border-secondary !important;
+}
+
+.micro-app-add-kpi-container {
+  .kpi-list-container {
+    flex-wrap: wrap !important;
+    > .card {
+      margin-bottom: 1.75rem;
+      margin-right: 1.5rem !important;
+      .kpi-title {
+        display: flex;
+        input {
+          margin-right: 10px;
+          display: block !important;
+        }
+      }
+    }
+  }
+}
+
+.disable,
+.disable:hover {
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.project-tooltip-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.dotted-running {
+  width: 10px;
+  display: inline-block;
+  height: 10px;
+  background: $bg-primary;
+  border-radius: 10px;
+}
+
+.dotted-stopped {
+  width: 10px;
+  display: inline-block;
+  height: 10px;
+  background: $dashboard-footer-border-secondary;
+  border-radius: 10px;
+}
+
+.dotted-maintanance {
+  width: 10px;
+  display: inline-block;
+  height: 10px;
+  background: #e87516;
+  border-radius: 10px;
+}
+
+.asset-edit-modal {
+  .modal-content {
+    max-width: 400px;
+    min-width: 400px;
+    padding: 1rem 1rem;
+  }
+}
+.maximize-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .modal-header {
+    width: 100%;
+    padding: 3px 10px;
+    background: $dashboard-footer-secondary-bg;
+  }
+  .modal-content {
+    max-width: 700px;
+    min-width: 700px;
+    min-height: 100px;
+    max-height: fit-content;
+    padding: 0;
+    flex-direction: row !important;
+  }
+}
+
+.card.is-loading {
+  .image,
+  h2,
+  p {
+    border-radius: 5px;
+    background-size: 200% 100%;
+    animation: 1.5s shine linear infinite;
+  }
+
+  .image {
+    height: 200px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  h2 {
+    height: 30px;
+  }
+
+  p {
+    height: 70px;
+  }
+}
+
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+}
+
+.tooltip-inner{
+  min-width:50px;
+  max-width:1000px;
+}
+.card-body{
+  padding: 0.75rem !important;
+}
+.js-plotly-plot .plotly .cursor-crosshair {
+  cursor: default !important;
+}
+a[href]{
+  color:$btn-primary-bg;
+}
+
+@media (max-width: 650px) {
+  .maximize-modal{
+    .modal-header{
+      width: 100%;
+      padding: 3px 10px;
+      background: $dashboard-footer-secondary-bg;
+    }
+    .modal-content {
+      max-width: 400px !important;
+      min-width: 400px !important;
+    }
+  }
+}
+

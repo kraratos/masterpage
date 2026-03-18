@@ -1,0 +1,27 @@
+.toaster-message-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+  left: 30%;
+  z-index: 100;
+  .toaster-ele {
+    min-width: 350px;
+    max-width: 350px;
+    background: white;
+    color: #147d64;
+    padding: 2px 10px;
+    border-radius: 6px;
+    border: 1px solid #147d64;
+    font-family: 'Poppins-Medium' , sans-serif;
+  }
+}
+
+@media (max-width: 480px) {
+  .toaster-message-container {
+    position: fixed !important;
+    top: 0 !important;
+    left: 30px !important;
+  }
+}

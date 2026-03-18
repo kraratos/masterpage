@@ -1,0 +1,50 @@
+<div class="top-nav-bar-container container-main mb-3" id="top-nav-bar-container">
+  <div class="d-flex align-items-center justify-content-between content-div">
+    <div class="logo-container d-flex align-items-start" *ngIf="navbarData">
+      <a [routerLink]="['/']" class="logo-box">
+        <div class="d-inline-block ml-3">
+          <div class="customer-name">{{dataService.customerName}}&nbsp;
+            <span *ngIf="isLevelProject !== 'projects'">-&nbsp;{{microAppService.selectedKPI}}</span>
+          </div>
+          <div class="hint-text title-date">{{navbarData.dateTime | date: 'dd-MMM-YYYY'}}</div>
+        </div>
+      </a>
+    </div>
+    <div class="calender-filter d-flex-column">
+      <div class="calender-container d-flex align-items-center justify-content-between">
+        <div class="date-range-selected" *ngIf="viewRangeDatepicker">
+          <bh-date-range-picker
+            id="bh-date-range-picker"
+            *ngIf="viewRangeDatepicker"
+            width="small"
+            disableHelper="True"
+            startDateLabel="From"
+            endDateLabel="To"
+            [isInvalid]="isInvalidDateRange"
+            [errorMessage]="errorMessageDateRange"
+            minValue="currentDate"
+            maxValue="currentDate"
+            [value]="dateValueRange"
+            (bhEventChange)="dateRangePickerChange($event)">
+          </bh-date-range-picker>
+        </div>
+        <div class="calender-filter-container">
+          <span class="date-range-text ml-1">Date Range ({{fromDate | date: 'dd-MMM-YYYY'}} to {{viewRangeDatepicker?(currentDate| date: 'dd-MMM-YYYY'):'Current Date'}})</span>
+          <ul>
+            <li  class="d-inline-block {{calendarFilterIndex === selectedDateIndex ? 'active': ''}}"
+                 (click)= "calendarFilterIndex !== 4? dateFilterChange(calendarFilterIndex, item.name):showCustomDatePicker(calendarFilterIndex, item.name)"
+                 *ngFor="let item of calendarFilters; let calendarFilterIndex = index;">
+              {{item.name}}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--  Sampling Monthly, Daily, Hourly-->
+<!--  <div class="d-flex align-items-center justify-content-end content-div">-->
+<!--    <div class="calendar-sampling d-flex justify-content-end">-->
+<!--      <app-sampling></app-sampling>-->
+<!--    </div>-->
+<!--  </div>-->
+</div>

@@ -1,0 +1,17 @@
+.bh-illustration {
+  max-width: 365px;
+  margin: 12% auto;
+}
+
+:host::ng-deep .bh-card {
+  height: 86% !important;
+}
+
+
+@media screen and (max-width: 599px) {
+
+  :host::ng-deep .bh-card {
+    height: 86% !important;
+    margin-top: 3rem;
+  }
+}

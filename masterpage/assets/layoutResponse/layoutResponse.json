@@ -1,0 +1,77 @@
+{
+  "parentVid" : null,
+  "level" : "projects",
+  "selectedVid" : "PR_NOBLE",
+  "selectedId" : "NOBLE",
+  "selectedTitle" : "NOBLE ENERGY EG LIMITED",
+  "customerName" : "NOBLE ENERGY EG LIMITED",
+  "imageSrc" : "/resources/projects/NOBLE.png",
+  "imageSrcSVG" : "/resources/projects/NOBLE.svg",
+  "defaultImageSrc" : "assets/images/projects.png",
+  "defaultImageSrcSVG" : "assets/images/projects.svg",
+  "microAppName" : "masterpageapp",
+  "pages" : [ {
+    "name" : "strategy",
+    "title" : "Strategy",
+    "options" : [ {
+      "parameterType" : "SHOW_DATEPICKER",
+      "parameterValue" : "Y"
+    } ],
+    "kpis" : [ ],
+    "summary" : [ {
+      "id" : 100,
+      "title" : "Events timeline",
+      "info" : {
+        "title" : null,
+        "description" : "Here is showed the events in the past and in the future for the asset",
+        "infoImageId" : null,
+        "footer" : null
+      },
+      "lockIconMessage" : null,
+      "widthSpan" : 12,
+      "orderNumber" : 100,
+      "detailsUri" : "https://dev-srm.icenter.azure.bakerhughes.com/maintenanceOptimizer?vid=<VID>&service=HI",
+      "description" : "Events timeline",
+      "printExportConfig" : [ ],
+      "paidService" : false
+    }, {
+      "id" : 125,
+      "title" : "Maintenance Optimizer",
+      "info" : {
+        "title" : null,
+        "description" : "Here is showed the main KPIs for Maintenance Optimizer service",
+        "infoImageId" : null,
+        "footer" : null
+      },
+      "lockIconMessage" : null,
+      "widthSpan" : 3,
+      "orderNumber" : 125,
+      "detailsUri" : "/#/app-emonitoring/modetail?page=strategy&detailedpage=maintoptdetail",
+      "description" : "MO KPIs - Maintenance Optimizer",
+      "printExportConfig" : [ ],
+      "paidService" : true
+    }, {
+      "id" : 138,
+      "title" : "FCA - Actual filter running hours",
+      "info" : null,
+      "lockIconMessage" : null,
+      "widthSpan" : 3,
+      "orderNumber" : 138,
+      "detailsUri" : null,
+      "description" : "FCA KPI - Actual filter running hours",
+      "printExportConfig" : [ ],
+      "paidService" : true
+    }, {
+      "id" : 146,
+      "title" : "TA open cases per criticality",
+      "info" : null,
+      "lockIconMessage" : null,
+      "widthSpan" : 3,
+      "orderNumber" : 146,
+      "detailsUri" : "/#/app-emonitoring/modetail?page=strategy&detailedpage=maintoptdetail",
+      "description" : "Number of TA cases currently in open status with the relevant criticality",
+      "printExportConfig" : [ ],
+      "paidService" : true
+    } ]
+  } ]
+}

@@ -1,0 +1,303 @@
+.bh-illustration{
+    max-width: 300px !important;
+}
+
+.error-card {
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.bh-card-title {
+    font-size: 16px;
+    font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif;
+    // color: $card-title-color;
+  }
+  @import '../../assets/scss/micro-app-variables';
+.cp-dashboard-card-container {
+  .card {
+    border-color: $default-border-color;
+  }
+  .dashboard-card {
+    border: unset;
+    // background: $body-bg-color;
+  }
+  .card-header {
+    height: 60px !important;
+    background-color: #ffff !important;
+  }
+  .no-border{
+    border-bottom:none;
+  }
+  .card-body-padding {
+    padding: 0px !important;
+  }
+  .search-icon {
+    position: relative;
+    right: 12%;
+  }
+  .card-bg-primary {
+    background: $white;
+    height: 50px;
+  }
+  .card-bg-secondary {
+    background: $body-bg-color;
+    height: 50px;
+  }
+  .title-container {
+    display: flex;
+    width: 70%;
+  }
+  .icons-container {
+    width: 30%;
+  }
+  .icons-container.icons-container-padding-asset {
+    padding-right: 20px;
+  }
+  .icons-container.icons-container-padding-widget {
+    padding-right: 10px;
+  }
+  .icons-gap {
+    gap: 8px;
+  }
+
+  .bh-checkbox {
+    margin-right: 8px;
+  }
+  .bh-card-title {
+    font-size: 16px;
+    font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif;
+    color: $card-title-color;
+  }
+  .bh-card-title.truncated-title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .bh-card-title.tooltip-title {
+    color: white;
+  }
+  .drop-down {
+    position: absolute;
+    background-color: #fff;
+    z-index: 9999;
+    border-radius: 4px;
+    box-shadow: 2px 4px 6px #ccc;
+    padding: 5px;
+    width: 160px;
+    font-size: 12px;
+    right: 16px;
+  }
+
+  .icenterList {
+    padding: 5px 16px !important;
+    input:disabled {
+      accent-color: $text-primary;
+    }
+  }
+
+  .cp-dropdown-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .cp-dropdown-menu li {
+    padding: 8px 16px;
+    cursor: pointer;
+    span {
+      font-family: 'Poppins-Medium', Arial, Helvetica, sans-serif;
+    }
+  }
+  .cp-dropdown-menu li :hover {
+    color: $bg-primary;
+  }
+
+  .card-subtitle {
+    text-decoration: none;
+    font-size: 10px;
+    color: $text-primary;
+    font-weight: normal;
+    font-family: 'Poppins-Regular', Arial, Helvetica, sans-serif;
+    .cp-dashboard-icons-angle-right:before {
+      color: $text-primary;
+    }
+  }
+}
+.selected {
+  opacity: 0.5;
+}
+
+.dotted-running {
+  width: 10px;
+  display: inline-block;
+  height: 10px;
+  background: $bg-primary;
+  border-radius: 10px;
+}
+
+.dotted-stopped {
+  width: 10px;
+  display: inline-block;
+  height: 10px;
+  background: $dashboard-footer-border-secondary;
+  border-radius: 10px;
+}
+
+.dotted-maintanance {
+  width: 10px;
+  display: inline-block;
+  height: 10px;
+  background: #e87516;
+  border-radius: 10px;
+}
+
+
+::ng-deep div span.early {
+  color: #c96f19;
+}
+::ng-deep div span.trip {
+  color: #a13dac;
+}
+::ng-deep div span.maintenance {
+  color: #0e7d87;
+}
+::ng-deep div span.start {
+  color: #d0d0d0;
+}
+
+.lock-icon-container {
+  width: 300px;
+  font-size: 12px;
+  font-family: 'Poppins-Medium', Arial, Helvetica, sans-serif;
+}
+
+.drop-down-ceco {
+  position: absolute;
+  background-color: #fff;
+  z-index: 999;
+  border-radius: 4px;
+  box-shadow: 0 4px 14px #0000001a;
+  font-size: 12px;
+  right: 0;
+  max-height: 230px;
+  max-width: 260px;
+  min-width: 260px;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $card-border-color;
+  }
+
+  .cp-dropdown-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .cp-dropdown-menu li {
+    padding: 8px 16px;
+
+    span {
+      font-family: 'Poppins-Medium', Arial, Helvetica, sans-serif;
+    }
+  }
+
+  .stages-available {
+    gap: 5px;
+    font-family: 'Poppins-Medium', Arial, Helvetica, sans-serif;
+    position: relative;
+
+    label {
+      position: absolute;
+      margin: 0;
+      font-weight: 500;
+      z-index: 100;
+      cursor: pointer;
+
+      &::after {
+        content: '';
+        color: white;
+      }
+    }
+
+    input[type='radio'] {
+      display: none;
+
+      &:checked + .radio-circle {
+        background: #147d64;
+        border: 1px solid #ced7d4;
+      }
+    }
+
+    .radio-circle {
+      width: 22px;
+      height: 22px;
+      border: 1px solid #ced7d4;
+      border-radius: 50%;
+      position: absolute;
+
+      &:active {
+        color: white;
+      }
+    }
+  }
+
+  ul li .filter-list {
+    gap: 10px;
+    padding: 5px 0;
+
+    &:hover {
+      background-color: #e6e6e6;
+    }
+  }
+
+  .filter-list {
+    input[type='radio'] {
+      appearance: none;
+      box-shadow: 0 0 1px 1px #ccc;
+      width: 15px;
+      height: 15px;
+      content: none;
+      outline: none;
+      margin: 0 0 0 5px;
+      cursor: pointer;
+
+      &:checked {
+        appearance: none;
+        outline: none;
+        padding: 0;
+        content: none;
+        border: none;
+
+        &::before {
+          position: absolute;
+          left: 9px;
+          color: white;
+          content: '\00A0\2713\00A0' !important;
+          font-size: 12px;
+          font-weight: 600;
+          background: #02a783;
+        }
+      }
+    }
+
+    &:last-child input[type='radio'] {
+      appearance: none;
+      width: 15px;
+      height: 14px;
+    }
+  }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1020px) {
+  .icons-container {
+    width: 40% !important;
+  }
+}
+

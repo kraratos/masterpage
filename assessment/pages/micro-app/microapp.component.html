@@ -1,0 +1,4 @@
+<ng-container *ngIf="assessmentStatusPrivilege && user">
+    <assessment-search-app-lib [isColad]="isColad" [isProd]="false" [hierarchy]="hierarchy"
+     [machine]="this.microAppService.selectedId" [noSuggestedDatePermission]="!(this.assessmentStatusPrivilege?.isCbm || this.assessmentStatusPrivilege?.isCpm)" [assessmentStatusRole]="assessmentStatusPrivilege" [user]="user"></assessment-search-app-lib>
+</ng-container>
